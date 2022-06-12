@@ -1,0 +1,159 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+  
+}
+
+
+header{ 
+    
+    width: 1024px;
+    height: 100px;
+    background-color: #222222;
+    display: flex;
+    position: relative;
+       
+
+}
+
+    .logo{
+         
+          align-self: flex-start;
+          margin: 15px;
+        }
+    
+    .nav {
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        align-items: center;
+        justify-content: space-between;
+        position: absolute;
+        right: 20px;
+        top: 40px
+   
+    }    
+
+.main {
+    display: flex;
+    display: flex;
+    width: 1024px;
+    height: 400px; 
+    position: relative;  
+    justify-content: center;   
+    background-color: #E5E5E5;
+
+}
+
+        .article1
+        {
+         display: flex;   
+         background-image: url(../img/delivery.jpg) ;
+         background-size: contain;
+         background-repeat: no-repeat;
+         margin: 50px 50px 0px 0px;
+         height: 350px;
+         width: 490px ;
+         margin-left: 30px;
+         font-size: 24px;         
+        
+        }
+            .texto{
+                position: absolute;
+                top: 70px;
+                margin-left: 10px;
+                font-size: 24px;
+                font-weight: 700;
+                color: #FC200C;
+            }
+        
+        .article2
+        {display: flex;
+            background-color: #FFFFFF ;
+         margin: 50px 50px 0px 0px;
+         height: 320px;
+         width: 490px ;
+         position: relative;
+         right: 43px;
+         border-radius: 5px;    
+        }   
+
+            .podio{
+                position: absolute;
+                top: 15px;
+                left: 150px;
+                font-size: 24px;
+                font-weight: 700;
+                color: #FC200C;
+            }
+
+            .pizzas{
+                position: absolute;
+                top: 80px;
+                left: 90px;
+                font-size: 20px;
+                font-weight: 700;
+                color: #222222;
+            }
+
+            .ol{
+                position: absolute;
+                top: 130px;
+                left: 50px;
+                font-size: 16px;
+                font-weight: 700;
+                color: #222222;
+            }
+
+            .imgFam{
+                position: absolute;
+                top: 120px;
+                left: 300px;
+                
+            }
+
+
+
+
+
+
+
+
+
+       
+
+.footer
+        {
+            display: flex;
+            position: relative;
+            background-color: #222222;
+            width: 1024px;
+            height: 150px;
+            color: #F3F3F3;
+            font-size: 16px;
+            font-weight: 400;
+            flex-direction: column;
+            align-content: flex-start;
+
+ 
+        }
+
+        .logo2
+        {
+            align-self: flex-end;
+            position: relative;
+            top: -80px;
+            margin-right: 15px;     
+
+        }
+
+        .menufooter
+        {
+            margin-top: 40px;
+            margin-left: 15px;     
+            justify-content: space-between;
+
+        }
+
+
